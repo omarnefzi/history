@@ -1,18 +1,41 @@
 h1{
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color:rgba(13, 11, 3, 0.945)
+color:rgba(13, 11, 3, 0.945);
 }
-header {
-    margin: 40px;
+#header {
+    height: 50%;
+    background-image: url(11.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+    
+}
+#FONT{
+font-size: xx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 5%;
+margin-left: 20%;
+display: inline-flex;
+padding: 1%;
+}
 
-}
 body {
-    background: url(https://previews.123rf.com/images/frogtravel/frogtravel1204/frogtravel120400060/13350026-%E9%96%8B%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B8%E8%83%8C%E6%99%AF%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%82%AF%E6%9C%AC%E7%A9%BA%E3%81%AE%E7%94%A8%E7%B4%99%E3%81%AE%E8%83%8C%E6%99%AF%E3%81%AE%E6%AD%B4%E5%8F%B2%E3%81%AE%E6%9C%AC%E3%81%AE%E5%8F%A4%E4%BB%A3%E3%81%AE%E7%A9%BA%E7%99%BD%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E7%A9%BA%E3%81%AE%E3%83%9A%E3%83%BC%E3%82%B8.jpg);
-   background-size:contain
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+ 
   }
 #p1{
-    font-size: 20px;
+    font-size:150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(28, 18, 6);
+margin-left: 15%;
+margin-bottom: 8%;
+}
+#h3{
+    font-size:xx-large;
+    margin-left: 50%;
 }
 body{
     margin: 30px;
@@ -20,4 +43,64 @@ body{
 .img{
     margin-top: 10px;
     border-radius: 30px;
+}
+#insciption{
+    background: url(7.jpg);
+    background-repeat: no-repeat;
+background-size:100% 100%;
+
+padding: 2%;
+    border: solid 1px;
+    width:40%;
+    height: 40%;
+    margin-left: 55%;
+}
+#sign{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);   
+}
+#insc{
+margin-left: 30%;  
+font-size: larger;
+font-style:oblique;
+color-scheme:inherit;
+}
+.label{
+    background-color: rgba(255, 228, 196, 0.833);
+}
+#time{
+    font-size:200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(50, 50, 10);
+    margin: 5%;
+}
+#tbl{
+    height: 250px;
+    width: 300px;
+    margin-left: 8%;
+    background-image:url(https://previews.123rf.com/images/nehru/nehru1710/nehru171000204/88557669-old-clock-on-a-vintage-photo-paper-background-time-concept-image.jpg);
+font-size: 150%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(50, 36, 8);
+}
+ 
+    .bio{
+        border:solid  1px;
+        width:25%;
+        margin-top: 5%;
+        padding:4%;
+outline-style: dashed; 
+outline-width: 4px;
+background-image: url(13.jpg);
+background-size: 100% 100%;
+font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgba(20, 18, 16, 0.892);}
+   
+   
+    #feet{
+margin-left: 80%; 
+margin-top: 5%;
+border-style:solid;
+padding: 1%;
 }
